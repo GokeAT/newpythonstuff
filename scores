@@ -1,0 +1,9 @@
+def getgrade (a,b,c):
+    name = input("What is your name: ")
+    score = (a/25 * 10) + (b/50 * 30) + (c/100 * 60)
+    new_score = str(score)
+    print ("Hello "+name+ " your score is "+new_score)
+    return name
+    return score
+
+getgrade (20,40,60)
