@@ -6,4 +6,9 @@ def getgrade (a,b,c):
     return name
     return score
 
-getgrade (20,40,60)
+
+a = int(input("What is your homework score: "))
+b = int(input("What is your assessment score: "))
+c = int(input("What is your exam score: "))
+
+getgrade (a,b,c)
