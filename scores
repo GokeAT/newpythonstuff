@@ -12,3 +12,22 @@ b = int(input("What is your assessment score: "))
 c = int(input("What is your exam score: "))
 
 getgrade (a,b,c)
+
+-----------------------------------------------------
+#dice.py
+
+import random
+
+def roll_dice():
+    n = random.randint(1,6)
+    print(n)
+
+roll_dice()
+
+-----------------------------------------------------
+
+#second file.py
+
+import dice
+
+dice.roll_dice()
